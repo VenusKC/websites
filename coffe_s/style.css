@@ -1,0 +1,100 @@
+.top-section {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+    background-color: rgb(197, 158, 51);
+}
+
+.logo {
+    width: 80px;
+    margin-left: 20px;
+}
+
+
+.navigation {
+    margin: 0;
+    padding: 0 0 0 450px;
+
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    margin-right: 30px;
+}
+
+.navigation a {
+    text-decoration: none !important;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+
+.navigation a:hover {
+    color: white;
+}
+.lines{
+    padding: 20px 40px 40px 20px;
+} 
+
+.heading{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+.image-blog-1 img{
+height: 899px;
+object-fit: cover;
+}
+.image-blog img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100%;
+    object-fit:cover;
+
+}
+.featured{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.featured h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.col-5 img{
+    height: 250px;
+    border-radius: 10px;
+}
+.about-us h3{
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+.about-us{
+    background-color: rgb(197, 158, 51);
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+.col-5 p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.contact {
+padding-top: 80px;    
+position: relative !important;
+padding-bottom: 80px;
+
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
